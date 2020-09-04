@@ -33,7 +33,7 @@ export default function Card({ longitud, latitud, wind, pressure, humidity, max,
           </div>
           <div className={styles.content_image}>
             <img
-              src={"http://openweathermap.org/img/wn/" + img + "@4x.png"}
+              src={"https://openweathermap.org/img/wn/" + img + "@4x.png"}
               alt={name}
             />
           </div>
